@@ -1,0 +1,1 @@
+<b><span style="color: #ffffff;">Привет мир!</span></b>

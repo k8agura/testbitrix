@@ -113,6 +113,21 @@ $curPage = $APPLICATION->GetCurPage(true);
 								</div>
 							</div>
 						</div>
+						<div class="p-lg-3 p-1">
+							<div class="d-flex text-center">
+								<div class="d-flex text-center">
+									<?$APPLICATION->IncludeComponent(
+										"bitrix:main.include",
+										"",
+										array(
+											"AREA_FILE_SHOW" => "file",
+											"PATH" => SITE_DIR."include/textmes.php"
+										),
+										false
+									);?>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
